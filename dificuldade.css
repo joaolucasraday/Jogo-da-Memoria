@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'FonteTitulo';
+    src: url("fonts/Minecraftia-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'FonteParagrafo';
+    src: url("fonts/pixelmix.ttf");
+}
+
 body{
     background-image: url("imagens/fundo.jpg");
     background-size: cover;      
