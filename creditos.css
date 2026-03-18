@@ -10,7 +10,7 @@
 
 body{
     background-image: url("imagens/fundo.jpg");
-    background-size: cover;      
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
@@ -18,11 +18,43 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: center; 
     align-items: center;
+}
+
+h1{
+    font-family: 'FonteTitulo';
+    color: white;
+    font-size: 3em;
+    margin-top: 40px;
+
+    text-shadow:
+        -3px -3px 0 black,
+        3px -3px 0 black,
+        -3px 3px 0 black,
+        3px 3px 0 black;
+}
+
+.creditos{
+    font-family: 'FonteTitulo';
+    background-color: rgba(0,0,0,0.6);
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
     text-align: center;
 }
 
+.creditos p{
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+
+footer{
+    margin-top: auto;
+    color: white;
+    font-family: 'FonteParagrafo';
+    margin-bottom: 20px;
+}
 button{
     font-family: 'FonteParagrafo';
     width: 200px;
@@ -42,20 +74,6 @@ button:hover{
     background-color: #2f6e32;
     cursor: pointer;
     transform: scale(1.05);
-}
-
-h1{
-    font-family: 'FonteTitulo';
-    text-align: center;
-    color: #ffffff;
-    font-size: 3em;
-
-    text-shadow:
-        -3px -3px 0 black,
-        3px -3px 0 black,
-        -3px 3px 0 black,
-        3px 3px 0 black,
-        0px 0px 10px rgba(255,255,255,0.4);
 }
 .voltar{
     position: absolute;
