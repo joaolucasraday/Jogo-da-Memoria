@@ -1,0 +1,34 @@
+@font-face{
+    font-family: 'FonteTitulo';
+    src: url("fonts/Minecraftia-Regular.ttf");
+}
+
+@font-face{
+    font-family: 'FonteParagrafo';
+    src: url("fonts/pixelmix.ttf");
+}
+
+body{
+    font-family: 'FonteParagrafo';
+    background-image: url(imagens/fundo.jpg);
+}
+
+h1{
+    font-family: 'FonteTitulo';
+    text-align: center;
+    color: white;
+    font-size: 3em;
+    text-shadow:
+        -2px -2px 0 black,  
+        2px -2px 0 black,
+        -2px  2px 0 black,
+        2px  2px 0 black;
+}
+
+button{
+    font-family: 'FonteParagrafo';
+}
+
+section.buttons{
+    
+}
