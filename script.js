@@ -10,6 +10,3 @@ function medio(){
 function dificil(){
     localStorage.setItem("dificuldade", 3);
 }
-
-let dificuldade = Number(localStorage.getItem("dificuldade"));
-console.log(dificuldade);
