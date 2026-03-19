@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tela de Dificuldade</title>
-    <link rel="stylesheet" href="dificuldade.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Selecione a Dificuldade</h1>
 
-    <button>Facil</button><br>
-    <button>Medio</button><br>
-    <button>Dificil</button>
+    <a href="ingame/facil.html">
+        <button onclick="facil()">Facil</button>
+    </a><br>
+    <button onclick="medio()">Medio</button><br>
+    <button onclick="dificil()">Dificil</button>
 
     <a href="index.html">
         <button class="voltar">Voltar</button>
     </a>
-
+    <script src="script.js"></script>
 </body>
 </html>

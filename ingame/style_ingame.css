@@ -1,15 +1,15 @@
 @font-face{
     font-family: 'FonteTitulo';
-    src: url("fonts/Minecraftia-Regular.ttf");
+    src: url("../fonts/Minecraftia-Regular.ttf");
 }
 
 @font-face{
     font-family: 'FonteParagrafo';
-    src: url("fonts/pixelmix.ttf");
+    src: url("../fonts/pixelmix.ttf");
 }
 
 body{
-    background-image: url("imagens/fundo.jpg");
+    background-image: url("../imagens/fundo.jpg");
     background-size: cover;      
     background-position: center;
     background-repeat: no-repeat;
@@ -52,28 +52,4 @@ button:hover{
     background-color: #2f6e32;
     cursor: pointer;
     transform: scale(1.05);
-}
-
-section.buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.voltar{
-    position: absolute;
-    top: 20px;
-    left: 20px;
-
-    font-family: 'FonteParagrafo';
-    width: 120px;
-    height: 40px;
-    font-size: 16px;
-}
-
-.voltar:hover{
-    cursor: pointer;
-    background-color: rgb(200, 60, 60);
-    color: white;
 }

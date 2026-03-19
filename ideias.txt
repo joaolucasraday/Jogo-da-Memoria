@@ -1,0 +1,8 @@
+criação do array de cartas
+importação de uma biblioteca para embaralhar
+criação do design de cartas na tela
+o que acontece ao clicar na carta
+se forem erradas. se viram novamente
+se forem certas. somem e fazem pontuação
+delay e animação ao devirar cartas erradas
+click não pode acontecer durante animação
